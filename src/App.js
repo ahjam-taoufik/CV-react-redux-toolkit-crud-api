@@ -1,9 +1,8 @@
 
+import Comments from './features/comments/Comments';
 function App() {
   return (
-    <div>
-      
-    </div>
+     <Comments/>
   );
 }
 
