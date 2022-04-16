@@ -6,7 +6,8 @@ import {
 
 export const fetchComments = createAsyncThunk(
   'comments/fetchComments',
-  async (_, { dispatch }) => {
+//   async (_, { dispatch }) => {
+  async () => {
     const response = await fetch(
       'https://jsonplaceholder.typicode.com/comments?_limit=10'
     );
