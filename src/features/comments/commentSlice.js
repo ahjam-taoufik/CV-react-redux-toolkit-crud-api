@@ -36,5 +36,6 @@ const commentsSice=createSlice({
     }
 });
 
+export const commentsSelectors=commentsAdapter.getSelectors((state)=>state.comments);
 
 export default commentsSice.reducer
